@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -16,10 +16,10 @@ srand(time(0));
 	n = rand() - RAND_MAX / 2;
 		printf("%d is", n);
 	else if (n > 0)
-		printf("%d positive\n");
+		printf("%d positive\n", n);
 	else if (n == 0)
-		printf("%d zero \n");
+		printf("%d zero \n", n);
 	else
-		printf("negative\n");
+		printf("negative\n", n);
 	return (0);
 }
