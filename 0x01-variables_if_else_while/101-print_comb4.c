@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.hi>
 /**
  * main - Entry point
  *
@@ -21,7 +21,7 @@ for (third_digit = second_digit + 1; third_digit <= 9; third_digit++)
 putchar(first_digit + '0');
 putchar(second_digit + '0');
 putchar(third_digit + '0');
-if (first_digit != 7 &&  second_digit != 8 &&  third_digit != 9)
+if (!(first_digit == 7 &&  second_digit == 8 &&  third_digit == 9))
 {
 putchar(',');
 putchar(' ');
@@ -29,6 +29,6 @@ putchar(' ');
 }
 }
 }
-putchar('\n');
+putchar("\n");
 return (0);
 }
