@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main Entry - point
+ * main - Entry point
  *
- * Prints all single-digit numbers of base 10
- * using the putchar function.
+ * Description: Prints all single-digit numbers of base 10
+ *              using the putchar function.
  *
  * Return: Always 0 (Success)
  */
