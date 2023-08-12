@@ -4,22 +4,22 @@
 /**
  * main - Entry point
  *
- * Assigns a ramdom number to the variable n
- * and prints whether it is positive, negative, or zero.
+ * Description: Assigns a random number to the variable n
+ *              and prints whether it is positive, negative, or zero.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n = 0;
+int n;
 srand(time(0));
-	n = rand() - RAND_MAX / 2;
-		printf("%d is", n);
+n = rand() - RAND_MAX / 2;
+printf("%d is ", n);
 if (n > 0)
-		 printf("%d is positive\n", n);
+printf("positive\n");
 else if (n == 0)
-                printf("%d is zero\n", n);
+printf("zero\n");
 else
-        printf("%d is negative\n", n);
+printf("negative\n");
 return (0);
 }
