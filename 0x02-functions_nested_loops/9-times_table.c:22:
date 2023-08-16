@@ -1,0 +1,17 @@
+_table.c:22: WARNING: please, no spaces at the start of a line
+9-times_table.c:23: ERROR: code indent should use tabs where possible
+9-times_table.c:23: WARNING: please, no spaces at the start of a line
+9-times_table.c:24: ERROR: code indent should use tabs where possible
+9-times_table.c:24: WARNING: please, no spaces at the start of a line
+9-times_table.c:25: ERROR: trailing whitespace
+9-times_table.c:27: ERROR: code indent should use tabs where possible
+9-times_table.c:27: WARNING: please, no spaces at the start of a line
+9-times_table.c:28: ERROR: code indent should use tabs where possible
+9-times_table.c:28: WARNING: please, no spaces at the start of a line
+9-times_table.c:29: ERROR: code indent should use tabs where possible
+9-times_table.c:29: WARNING: please, no spaces at the start of a line
+9-times_table.c:33: ERROR: trailing whitespace
+9-times_table.c:33: ERROR: spaces required around that '!=' (ctx:WxV)
+9-times_table.c:43: ERROR: code indent should use tabs where possible
+9-times_table.c:43: WARNING:
+

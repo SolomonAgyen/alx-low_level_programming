@@ -1,17 +1,29 @@
 #include "main.h"
 
-void print_alphabet_x10(void) {
-    char ch;
-    for (ch = 'a'; ch <= 'z'; ch++) {
-        write(1, &ch, 1);
-    }
-    write(1, "\n", 1);
+
+
+/**
+ * print_alphabet_x10 - Make alphabet x10 time
+ * Return: void
+ */
+
+
+void print_alphabet_x10(void)
+{
+
+
+char ch;
+int i;
+i = 0;
+while (i < 10)
+{
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+_putchar(ch);
+}
+_putchar('\n');
+i++;
 }
 
-int main(void) {
-    int i;
-    for (i = 0; i < 10; i++) {
-        print_alphabet_x10();
-    }
-    return 0;
+
 }
