@@ -1,0 +1,6 @@
+_table.c:33:13: error: expected ‘;’ before ‘}’ token
+   33 | _putchar(32)
+      |             ^
+      |             ;
+   34 | }
+      | ~            
