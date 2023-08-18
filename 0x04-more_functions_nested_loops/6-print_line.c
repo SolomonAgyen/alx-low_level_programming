@@ -19,7 +19,7 @@ _putchar('\n');
 else
 {
 
-for (x = 0; x <= n; x++)
+for (x = 1; x <= n; x++)
 {
 _putchar(95);
 }
