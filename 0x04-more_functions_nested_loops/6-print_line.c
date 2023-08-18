@@ -1,10 +1,11 @@
 #include "main.h"
 
-
 /**
- * print_line - draws a straight line in the terminal
- * @c: number of times the character _ should be printed
+ * print_line - draws a straight line according to parameter
+ * @c: The number of lines to draw
+ * Return: empty
  */
+
 void print_line(int n)
 {
 int x;
