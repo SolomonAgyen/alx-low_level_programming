@@ -9,7 +9,7 @@
  */
 size_t print_list(const list_t *h)
 {
-osize_t s = 0;
+size_t s = 0;
 
 while (h)
 {
