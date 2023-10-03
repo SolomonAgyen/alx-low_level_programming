@@ -15,19 +15,37 @@ int fd;
 ssize_t w;
 int t;
 
-fd = open(filename, O_RDONLY);
-if (fd == -1)
+if (filename == NULL)
 return (0);
+
 buf = malloc(sizeof(char) * letters);
 
-if (bull == NULL)
+if (buf == NULL)
 return (0);
+
+fd = open(filename, O_RDONLY);
+
+if (fd == -1)
+{
+free(buf);
+return (0);
+}
 
 t = read(fd, buf, letters);
+
+if (t == -1)
+{
+free(buf);
+return (0);
+}
+
 w = write(STDOUT_FILENO, buf, t);
 
-if (t == -1 || w == -1)
+if (w == -1 || w != t)
+{
+free(buf);
 return (0);
+}
 
 free(buf);
 close(fd);
