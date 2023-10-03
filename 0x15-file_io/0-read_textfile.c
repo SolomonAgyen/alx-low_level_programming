@@ -19,8 +19,15 @@ fd = open(filename, O_RDONLY);
 if (fd == -1)
 return (0);
 buf = malloc(sizeof(char) * letters);
+
+if (bull == NULL)
+return (0);
+
 t = read(fd, buf, letters);
 w = write(STDOUT_FILENO, buf, t);
+
+if (t == -1 || w == -1)
+return (0);
 
 free(buf);
 close(fd);
